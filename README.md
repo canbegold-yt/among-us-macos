@@ -1,5 +1,7 @@
 # Among Us on MacOS
 
+>***I recommend reading the guide through the website as it is organized neatly into pages, but reading it out of the README works too!*** <br>
+
 This is a guide for playing the PC version of Among Us (any version) on MacOS using [Sikarugir/Kegworks](https://github.com/Sikarugir-App/Sikarugir). As this is the PC version of Among Us we're using, it will require the [Steam version of the game](https://store.steampowered.com/app/945360/Among_Us/). Possibly, I will make a Epic Games version of this guide, if it's requested.
 
 ## Compatibility
