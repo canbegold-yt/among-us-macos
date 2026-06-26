@@ -1,4 +1,4 @@
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 const withNextra = require('nextra')({
   theme: 'nextra-theme-docs',
