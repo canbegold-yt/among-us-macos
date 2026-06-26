@@ -1,9 +1,6 @@
 {
   "index": "Introduction",
-  "dependencies": {
-    "title": "Dependencies / Requirements",
-    "type": "page"
-  },
+  "dependencies": "Dependencies",
   "guide": "Guide",
   "faq-and-common-issues": "FAQ & Common Issues",
   "about": {
