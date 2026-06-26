@@ -8,9 +8,9 @@
     "type": "page"
   },
   "contact": {
-    "title": "Contact ↗",
+    "title": "Issues ↗",
     "type": "page",
-    "href": "mailto:tzwielich@gmail.com?subject=Feedback%20on%20the%20documentation",
+    "href": "https://github.com/theodorexz/among-us-macos/issues",
     "newWindow": true
   }
 }
