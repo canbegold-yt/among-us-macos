@@ -1,3 +1,28 @@
+import dynamic from 'next/dynamic'
+
+export const LiveCode = dynamic(
+  () => import('@codesandbox/sandpack-react').then((mod) => mod.Sandpack),
+  { ssr: false }
+)
+
+# Component Documentation
+
+Below is a live interactive code playground. Try changing the text or the inline styles!
+
+<LiveCode 
+  template="react" 
+  files={{
+    "/App.js": `export default function App() {
+  return (
+    <div style={{ padding: '20px', textAlign: 'center' }}>
+      <h1 style={{ color: 'royalblue' }}>Hello Nextra Live Preview!</h1>
+      <p>Edit this text to see changes instantly.</p>
+    </div>
+  );
+}`
+  }}
+/>
+
 # Overview
 
 This is a guide for playing the PC version of Among Us (Steam) on MacOS using [Sikarugir/Kegworks](https://github.com/Sikarugir-App/Sikarugir). As this is the PC version of Among Us we're using, it will require the [Steam version of the game](https://store.steampowered.com/app/945360/Among_Us/). Additionally, I can make an Epic Games version of this guide, if it's requested.3

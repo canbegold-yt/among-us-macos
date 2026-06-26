@@ -1,6 +1,10 @@
 {
   "index": "Introduction",
-  "dependencies.mdx": "Dependencies",
+  "dependencies": {
+    "title": "Depedencies / Resources",
+    "type": "folder",
+    "collapsed": true
+  },
   "guide": "Guide",
   "faq-and-common-issues": "FAQ & Common Issues",
   "about": {
