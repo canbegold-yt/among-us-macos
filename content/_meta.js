@@ -1,4 +1,4 @@
-{
+export default {
   "index": "👋 Introduction",
   "dependencies": "📦 Dependencies & Resources",
   "guide": "🚀 Quickstart Guide",
