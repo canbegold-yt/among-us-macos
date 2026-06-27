@@ -2,10 +2,11 @@
   "index": {
     "title": "👋 Introduction",
     "position": 0,
-    "href": "/introduction"
+    "href": "/index"
   },
   "dependencies": {
     "title": "📦 Dependencies & Resources",
+    "sidebarTitle": "📦 Dependencies & Resources",
     "position": 1,
     "items": {
       "rosetta2": "⚙️ Rosetta 2",
