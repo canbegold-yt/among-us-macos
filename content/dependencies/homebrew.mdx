@@ -10,22 +10,23 @@ Homebrew is a package manager for macOS that allows us to easily install softwar
 
 ## Homebrew Installation
 
-Before we install Homebrew, I would like to mention that Homebrew has two different ways of installation, but in this guide we're gonna be using the terminal, but if needed you can also install Homebrew using the .pkg installer via the [Homebrew repository](https://github.com/Homebrew/brew/releases/latest).
+Homebrew has two installation methods. In this guide we use the terminal, but you can also use the `.pkg` installer from the [Homebrew repository](https://github.com/Homebrew/brew/releases/latest).
 
-To install Homebrew, open your terminal and paste the following command:
-
-```sh
-/bin/bash -c "\$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-Next, add Homebrew to your path:
+Open your terminal and run:
 
 ```sh
-echo 'eval "\$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
-eval "\$(/opt/homebrew/bin/brew shellenv)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-Lastly, verify Homebrew is installed correctly:
+Then add Homebrew to your path:
+
+```sh
+echo >> ~/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
+Verify the installation:
 
 ```sh
 brew doctor
