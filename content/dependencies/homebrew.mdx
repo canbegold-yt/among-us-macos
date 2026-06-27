@@ -15,19 +15,19 @@ Before we install Homebrew, I would like to mention that Homebrew has two differ
 
 To install Homebrew, we need to run the command in the terminal. Open your terminal and paste the following command:
 
-```zsh
+```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 Next, copy the following commands to add Homebrew to our zsh path:
 
-```zsh
+```bash
 (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
 Lastly, we can verify that Homebrew is installed by running the command below, this should return "Your system is ready to brew!" if it installed correctly.
 
-```zsh
+```bash
 brew doctor
 ```
