@@ -1,7 +1,8 @@
 import { Footer, Layout, Navbar } from 'nextra-theme-docs'
-import { Banner, Head } from 'nextra/components'
+import { Head } from 'nextra/components'
 import { getPageMap } from 'nextra/page-map'
 import 'nextra-theme-docs/style.css'
+import themeConfig from '../theme.config'
 
 export const metadata = {
   title: 'Among Us macOS',
@@ -14,6 +15,7 @@ const navbar = (
     projectLink="https://github.com/theodorexz/among-us-macos"
   />
 )
+
 const footer = <Footer>MIT {new Date().getFullYear()} © theodorexz</Footer>
 
 export default async function RootLayout({ children }) {
@@ -25,6 +27,7 @@ export default async function RootLayout({ children }) {
           navbar={navbar}
           footer={footer}
           pageMap={await getPageMap()}
+          {...themeConfig}
         >
           {children}
         </Layout>
